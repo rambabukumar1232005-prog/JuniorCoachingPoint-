@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Coaching Point | Nawkatola Bargaon</title>
+    <style>
+        :root {
+            --primary: #FF5722;
+            --secondary: #00E676;
+            --dark-blue: #0A192F;
+            --accent: #FFD700;
+            --light-bg: #F4F7FE;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif, Arial; }
+        body { background-color: var(--light-bg); color: #333; line-height: 1.6; }
+
+        header {
+            background: linear-gradient(135deg, #0A192F, #1E3A8A);
+            color: white;
+            padding: 12px 5%;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-img { width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--accent); background: #fff; object-fit: cover; }
+        .logo-text { font-size: 1.3rem; font-weight: bold; color: var(--accent); }
+
+        .alert-bar {
+            background: linear-gradient(90deg, #FF1744, #FF5252);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #FF5722, #FF9800);
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+        .hero h1 { font-size: 2rem; margin-bottom: 5px; }
+
+        .container { padding: 25px 5%; max-width: 1200px; margin: auto; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border-top: 5px solid var(--primary);
+        }
+
+        .card-green { border-top-color: var(--secondary); }
+        .card-blue { border-top-color: #29B6F6; }
+        .card-yellow { border-top-color: #FFD700; }
+
+        .card h2 { color: var(--dark-blue); margin-bottom: 12px; font-size: 1.3rem; }
+
+        /* Result Buttons Box */
+        .result-box {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .result-btn-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .result-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #FF9800, #FF5722);
+            color: white;
+            font-weight: bold;
+            font-size: 1rem;
+            padding: 12px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(255, 87, 34, 0.4);
+        }
+
+        .result-btn-alt {
+            background: linear-gradient(135deg, #00E676, #00B0FF);
+            box-shadow: 0 4px 10px rgba(0, 176, 255, 0.4);
+        }
+
+        .teacher-box {
+            background: #E8F5E9;
+            border-left: 4px solid #2E7D32;
+            padding: 10px;
+            margin: 8px 0;
+            font-weight: bold;
+        }
+
+        .btn-container { display: flex; gap: 10px; margin-top: 15px; }
+        .btn {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+        .btn-call { background: #25D366; }
+        .btn-call2 { background: #007BFF; }
+
+        footer { background: var(--dark-blue); color: white; text-align: center; padding: 20px; margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="file_00000000770c8208a2388e8c8b3e035c.png" alt="Junior Coaching Point Logo" class="logo-img">
+        <div class="logo-text">Junior Coaching Point</div>
+    </header>
+
+    <div class="alert-bar">
+        🚀 NAYA BATCH: Class 10th - 7 September 2026 Se Shuru!
+    </div>
+
+    <section class="hero">
+        <h1>Junior Coaching Point</h1>
+        <p>सही मार्ग, उज्ज्वल भविष्य</p>
+    </section>
+
+    <div class="container">
+        <div class="grid">
+            
+            <!-- Result Links Section -->
+            <div class="card card-yellow" style="grid-column: 1 / -1;">
+                <h2>🏆 परीक्षा परिणाम (Test Results)</h2>
+                <div class="result-box">
+                    <p style="font-size: 1rem;">अपना रिज़ल्ट देखने के लिए नीचे दिए गए लिंक पर क्लिक करें:</p>
+                    <div class="result-btn-container">
+                        <a href="https://rambabukumar1232005-prog.github.io/Result/" target="_blank" class="result-btn">
+                            📊 लिंक 1 result
+                        </a>
+                        <a href="https://rambabukumar1232005-prog.github.io/Result/" target="_blank" class="result-btn result-btn-alt">
+                            🔗 Link 2:- Check Result
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Batch Info -->
+            <div class="card">
+                <h2>📢 नया बैच सूचना</h2>
+                <p><strong>10th Class New Batch</strong></p>
+                <p style="color: #D32F2F; font-size: 1.1rem; font-weight: bold; margin-top: 5px;">
+                    📅 7 September 2026
+                </p>
+                <p style="margin-top: 8px;">बोर्ड परीक्षा की बेहतरीन तैयारी के लिए आज ही अपना नाम दर्ज कराएं।</p>
+            </div>
+
+            <!-- Teachers Info -->
+            <div class="card card-green">
+                <h2>👨‍🏫 हमारे अनुभवी शिक्षक</h2>
+                <div class="teacher-box">👨‍🏫 Teacher: Mukesh Kumar</div>
+                <div class="teacher-box">👨‍🏫 Assistant Teacher: Rambabu Kumar</div>
+            </div>
+
+            <!-- Address & Contact -->
+            <div class="card card-blue">
+                <h2>📍 पता एवं संपर्क</h2>
+                <p><strong>पता:</strong> Nawkatola Bargaon, Ward No. 05</p>
+                <p style="margin-top: 8px;"><strong>📞 कॉल करें:</strong></p>
+                <div class="btn-container">
+                    <a href="tel:7667301014" class="btn btn-call">📞 7667301014</a>
+                    <a href="tel:7488479836" class="btn btn-call2">📞 7488479836</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>Junior Coaching Point</strong> - Nawkatola Bargaon Ward No 05</p>
+        <p style="font-size: 0.8rem; color: #aaa; margin-top: 5px;">© 2026 All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
